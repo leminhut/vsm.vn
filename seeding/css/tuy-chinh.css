@@ -1,0 +1,95 @@
+ .button3x{display:table;border-radius:4px;cursor:pointer;border:double #eee;font-weight:500;text-transform:uppercase;color:#FFF;background:linear-gradient(135deg, #de7921 25%, #b09738);margin:25px auto 0;padding:10px 20px;font-size:15px;transition:all 1s}
+.button3x:hover{color:#fff;opacity:0.8;box-shadow:0 0 18px 18px rgba(80,80,80,0)}
+    .heading-home{
+     text-align:center;
+     margin-bottom:20px 
+}
+ .heading-home hr{
+     width:30%;
+     border:0;
+     height:2px;
+     background-image:linear-gradient(to right,rgba(0,0,0,0),rgb(76,174,80),rgba(0,0,0,0));
+     margin:auto;
+     opacity:0.9 
+}
+ .heading-home h3{
+     text-transform:uppercase;
+     position:relative;
+     letter-spacing:1px;
+     font-size:23px;
+     padding:0;
+     color:#4cae50;
+     margin:0 
+}
+
+    .title-menu-i i {font-size: 18px; margin-right: 10px; vertical-align: middle;    margin-top: -3px;}.fb-reaction img {
+
+    width: 50px;
+
+    display: block;
+
+}
+
+.fb-reaction .checkbox {
+
+    display: inline-block;
+
+}
+
+.fb-reaction {
+
+    text-align: center;
+
+}
+
+.title-menu-i i {
+
+    margin-right: 5px;
+
+    width: 18px;
+
+}
+
+.form-check {
+    position: relative;
+    display: inline-block;
+    padding-left: 1.25rem;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px
+    /* width: 120px; */
+}
+
+.form-check label {cursor: pointer}
+
+/* #sidebar ul.menu-categories li.menu>.dropdown-toggle, #sidebar ul.menu-categories ul.submenu>li a {
+    color: #e3e4eb;
+} */
+input[disabled] {
+    color: red
+}
+
+body {background: #fff; color: #444444; font-size: 16px}
+#content {margin-left: 272px; margin-top: 30px}
+.sidebar-wrapper {width: 288px; left: 0; padding-left: 16px; border-radius: 0; top: 56px}
+.sidebar-theme, #sidebar, .sub-header-container .navbar {background: #0e1726}
+#sidebar ul.menu-categories ul.submenu > li a,#sidebar ul.menu-categories li.menu > .dropdown-toggle {color:#fff}
+.sub-header-container .navbar {box-shadow: none}
+#sidebar ul.menu-categories ul.submenu > li.active a, #sidebar ul.menu-categories ul.submenu > li a:hover {
+    color: #ff9767;}
+    .sub-header-container .navbar .sidebarCollapse svg, .sub-header-container .breadcrumb-one .breadcrumb-item.active {color: #fff}
+.header-container {
+    z-index: 1030;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+#loader {display:none}
+#sidebar ul.menu-categories.ps {
+    height: calc(100vh - 67px) !important; }
+    .sidebar-closed > .sidebar-wrapper {
+    left: -288px;
+}
+@media (max-width: 991px) {
+    #sidebar ul.menu-categories.ps {
+    height: calc(100vh - 125px) !important; }
+}
